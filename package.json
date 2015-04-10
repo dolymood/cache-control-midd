@@ -1,6 +1,6 @@
 {
   "name": "cache-control-midd",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Express/Connect middleware to set response header cache options",
   "main": "index.js",
   "scripts": {

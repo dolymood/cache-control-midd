@@ -17,7 +17,7 @@ var cacheControl = require('cache-control-midd');
 var app = express();
 
 // Sets `Cache-Control` header to `public, max-age=600`
-// and `Expires` to `600`
+// and `Expires` too
 // 'minute' -> 10 minutes -> 600 seconds
 
 app.get('/', cacheControl('minute'), function(req, res) {
